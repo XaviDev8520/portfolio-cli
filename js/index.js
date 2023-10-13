@@ -283,6 +283,7 @@ $(document).ready(function() {
             for (var i = 0; i < projects.length; i++) {
                 terminal.append("<span class=\"dir\">" + projects[i].name + "\t\t</span>");
             }
+            terminal.append("\n");
         }
         else {
             terminal.append("description\t\ttech_stack\t\tlink\n");
