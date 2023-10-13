@@ -301,9 +301,9 @@ $(document).ready(function() {
     // Prompt,  welcome message and command handling
     var terminal = $(".terminal");
     var prompt = "$";
-    var home = "~";
+    var home = "[~]";
     var path = "";//path from home
-    var user = "user@mushahids-portfolio-cli";
+    var user = "user@linux";
 
     var commandHistory = [];
     var historyIndex = 0;

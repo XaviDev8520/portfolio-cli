@@ -26,9 +26,9 @@ textarea, input, button {
 }
 .window .terminal {
     padding: 4px;
-    background-color: black;
+    background-color: #23252f;
     height: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Source Code Pro", monospace;
     font-weight: 200;
     font-size: 16px;
@@ -43,20 +43,20 @@ textarea, input, button {
 }
 .window .terminal::after {
     content: "|";
-    animation: blink 2s steps(1) infinite;
+    animation: blink 1s steps(1) infinite;
 }
 
 .user {
-    color: #55ff55;
+    color: #5cb6a6;
 }
 .prompt {
-    color: #55ff55;
+    color: #277bf6;
 }
 .path {
-    color: #5555ff;
+    color: #f4f4f4;
 }
 .dir {
-    color: #5555ff;
+    color: #e2080a;
 }
 
 .contact {
