@@ -374,7 +374,7 @@ $(document).ready(function() {
     }
 
     function displayPrompt() {
-        terminal.append("<span class=\"user\">" + user + ":</span>");
+        terminal.append("<span class=\"user\">" + user + "</span>");
         if (path == "") {
             terminal.append("<span class=\"path\">" + home + "]</span>");
         }
