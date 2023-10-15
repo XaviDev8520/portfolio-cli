@@ -292,10 +292,10 @@ $(document).ready(function() {
 
     function pwd() {
         if (path != "") {
-            terminal.append("<span class=\"path\">" + home + "/" + path + "</span>\n");
+            terminal.append("<span class=\"path\">" + home + "/" + path + "]</span>\n");
         }
         else {
-            terminal.append("<span class=\"path\">" + home + "</span>\n");
+            terminal.append("<span class=\"path\">" + home + "]</span>\n");
         }
     }
 
@@ -304,7 +304,7 @@ $(document).ready(function() {
     var prompt = "$";
     var home = "[~";
     var path = "";//path from home
-    var user = "user@linux";
+    var user = "user@localhost";
 
     var commandHistory = [];
     var historyIndex = 0;
